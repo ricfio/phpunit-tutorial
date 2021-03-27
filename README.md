@@ -24,6 +24,9 @@
 - 2.12: [Example 2.12 Expecting PHP errors, warnings, and notices](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-errortest-php)
 - 2.13: [Example 2.13 Testing return values of code that uses PHP Errors](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-triggererrorreturnvalue-php)
 
+### Testing Output
+- 2.14: [Example 2.14 Testing the output of a function or method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-output-examples-outputtest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -63,6 +66,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/ExceptionTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ErrorTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ErrorSuppressionTest.php --testdox`  
+- `./vendor/bin/phpunit tests/OutputTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
