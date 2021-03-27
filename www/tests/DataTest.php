@@ -13,7 +13,7 @@ final class DataTest extends TestCase
         $this->assertSame($expected, $a + $b);
     }
 
-    public function additionWithNonNegativeNumbersProvider(): void
+    public function additionWithNonNegativeNumbersProvider(): array
     {
         return [
             [0, 1, 1],
