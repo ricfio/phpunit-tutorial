@@ -1,6 +1,7 @@
 # PHPUnit Tutorial
 
-## Tutorial for [PHPUnit](https://phpunit.de/) 9 
+Tutorial tags:  
+- 1.0.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -30,9 +31,13 @@ _Terminal_ > _New Terminal_
 `./vendor/bin/phpunit --version`  
 
 ## Run Tests
- 1. ...  
+ 1. Generating autoload files  
 `composer dump-autoload`  
  2. Run Tests  
 `./vendor/bin/phpunit tests`  
- 9. Run Tests as TestDoc  
+ 3. Run Tests as TestDoc  
 `./vendor/bin/phpunit tests --testdox`  
+
+## References
+* [PHPUnit](https://phpunit.de/)
+* [PHPUnit Manual](https://phpunit.readthedocs.io/en/9.5/)  
