@@ -1,7 +1,11 @@
 # PHPUnit Tutorial
 
-Tutorial tags:  
+## Tutorial tags:  
+
+### Getting Started with PHPUnit 9
 - 1.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
+
+### Test Dependencies
 - 2.1: [Example 2.1 Testing array operations with PHPUnit](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest-php)
 - 2.2: [Example 2.2 Using the @depends annotation to express dependencies](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest2-php)
 - 2.3: [Example 2.3 Exploiting the dependencies between tests](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-dependencyfailuretest-php)
@@ -12,6 +16,9 @@ Tutorial tags:
 - 2.8: [Example 2.8 The CsvFileIterator class](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-csvfileiterator-php)
 - 2.9: [Example 2.9 Combination of @depends and @dataProvider in same test](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-dependencyanddataprovidercombo-php)
 - 2.10: [Example 2.10 Using multiple data providers for a single test](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples2-datatest-php)
+
+### Testing Exceptions
+- 2.11: [Example 2.11 Using the expectException() method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-exceptiontest-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -49,6 +56,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/MultipleDependenciesTest.php --testdox`  
 - `./vendor/bin/phpunit tests/DataTest.php --testdox`  
 - `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php --testdox`  
+- `./vendor/bin/phpunit tests/ExceptionTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
