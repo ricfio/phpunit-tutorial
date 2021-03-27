@@ -12,13 +12,8 @@ final class DataTest extends TestCase
         $this->assertSame($expected, $a + $b);
     }
 
-    public function additionProvider(): array
+    public function additionProvider(): CsvFileIterator
     {
-        return [
-            'adding zeros'  => [0, 0, 0],
-            'zero plus one' => [0, 1, 1],
-            'one plus zero' => [1, 0, 1],
-            'one plus one'  => [1, 1, 3]
-        ];
+        return new CsvFileIterator('data.csv');
     }
 }
