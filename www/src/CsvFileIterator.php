@@ -16,11 +16,21 @@ final class CsvFileIterator implements Iterator
         fclose($this->file);
     }
 
+    protected function getrow()
+    {
+        $row = fgetcsv($this->file);
+        if (is_array($row)) {
+            $row = array_map('intval', $row);
+        }
+        return $row;
+    }
+
     public function rewind(): void
     {
         rewind($this->file);
 
-        $this->current = fgetcsv($this->file);
+        $this->current = $this->getrow();
+
         $this->key = 0;
     }
 
@@ -41,7 +51,7 @@ final class CsvFileIterator implements Iterator
 
     public function next(): void
     {
-        $this->current = fgetcsv($this->file);
+        $this->current = $this->getrow();
 
         $this->key++;
     }
