@@ -9,6 +9,7 @@ Tutorial tags:
 - 2.5: [Example 2.5 Using a data provider that returns an array of arrays](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest-php)
 - 2.6: [Example 2.6 Using a data provider with named datasets](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php)
 - 2.7: [Example 2.7 Using a data provider that returns an Iterator object](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest2-php)
+- 2.8: [Example 2.8 The CsvFileIterator class](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-csvfileiterator-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -38,6 +39,7 @@ _Terminal_ > _New Terminal_
 `./vendor/bin/phpunit --version`  
 
 ## Run Tests (testDox)  
+- `composer dump-autoload`  
 - `./vendor/bin/phpunit tests --testdox`  
 - `./vendor/bin/phpunit tests/EmailTest.php --testdox`  
 - `./vendor/bin/phpunit tests/StackTest.php --testdox`  
