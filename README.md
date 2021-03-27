@@ -7,6 +7,7 @@ Tutorial tags:
 - 2.3: [Example 2.3 Exploiting the dependencies between tests](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-dependencyfailuretest-php)
 - 2.4: [Example 2.4 Test with multiple dependencies](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-multipledependencies-php)
 - 2.5: [Example 2.5 Using a data provider that returns an array of arrays](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest-php)
+- 2.6: [Example 2.6 Using a data provider with named datasets](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
