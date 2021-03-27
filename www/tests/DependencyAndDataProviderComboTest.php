@@ -8,14 +8,14 @@ final class DependencyAndDataProviderComboTest extends TestCase
         return [['provider1'], ['provider2']];
     }
 
-    public function testProducerFirst(): void
+    public function testProducerFirst(): string
     {
         $this->assertTrue(true);
 
         return 'first';
     }
 
-    public function testProducerSecond(): void
+    public function testProducerSecond(): string
     {
         $this->assertTrue(true);
 
