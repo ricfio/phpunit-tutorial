@@ -4,6 +4,7 @@ Tutorial tags:
 - 1.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
 - 2.1: [Example 2.1 Testing array operations with PHPUnit](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest-php)
 - 2.2: [Example 2.2 Using the @depends annotation to express dependencies](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest2-php)
+- 2.3: [Example 2.3 Exploiting the dependencies between tests](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-dependencyfailuretest-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -36,6 +37,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests --testdox`  
 - `./vendor/bin/phpunit tests/EmailTest.php --testdox`  
 - `./vendor/bin/phpunit tests/StackTest.php --testdox`  
+- `./vendor/bin/phpunit tests/DependencyFailureTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
