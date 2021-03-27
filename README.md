@@ -10,6 +10,7 @@ Tutorial tags:
 - 2.6: [Example 2.6 Using a data provider with named datasets](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest1-php)
 - 2.7: [Example 2.7 Using a data provider that returns an Iterator object](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-datatest2-php)
 - 2.8: [Example 2.8 The CsvFileIterator class](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-csvfileiterator-php)
+- 2.9: [Example 2.9 Combination of @depends and @dataProvider in same test](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-dependencyanddataprovidercombo-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -46,6 +47,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/DependencyFailureTest.php --testdox`  
 - `./vendor/bin/phpunit tests/MultipleDependenciesTest.php --testdox`  
 - `./vendor/bin/phpunit tests/DataTest.php --testdox`  
+- `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
