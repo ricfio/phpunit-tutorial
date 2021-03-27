@@ -27,6 +27,9 @@
 ### Testing Output
 - 2.14: [Example 2.14 Testing the output of a function or method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-output-examples-outputtest-php)
 
+### Error output
+- 2.15: [Example 2.15 Error output generated when an array comparison fails](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-examples-arraydifftest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -67,6 +70,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/ErrorTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ErrorSuppressionTest.php --testdox`  
 - `./vendor/bin/phpunit tests/OutputTest.php --testdox`  
+- `./vendor/bin/phpunit tests/ArrayDiffTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
