@@ -20,6 +20,9 @@
 ### Testing Exceptions
 - 2.11: [Example 2.11 Using the expectException() method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-exceptiontest-php)
 
+### Testing PHP Errors, Warnings, and Notices
+- 2.12: [Example 2.12 Expecting PHP errors, warnings, and notices](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-errortest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -57,6 +60,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/DataTest.php --testdox`  
 - `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ExceptionTest.php --testdox`  
+- `./vendor/bin/phpunit tests/ErrorTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
