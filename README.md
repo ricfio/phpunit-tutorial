@@ -1,7 +1,8 @@
 # PHPUnit Tutorial
 
 Tutorial tags:  
-- 1.0.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
+- 1.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
+- 2.1: [Testing array operations with PHPUnit](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -30,13 +31,10 @@ _Terminal_ > _New Terminal_
 `composer require --dev phpunit/phpunit`  
 `./vendor/bin/phpunit --version`  
 
-## Run Tests
- 1. Generating autoload files  
-`composer dump-autoload`  
- 2. Run Tests  
-`./vendor/bin/phpunit tests`  
- 3. Run Tests as TestDoc  
-`./vendor/bin/phpunit tests --testdox`  
+## Run Tests (testDox)  
+- `./vendor/bin/phpunit tests --testdox`  
+- `./vendor/bin/phpunit tests/EmailTest.php --testdox`  
+- `./vendor/bin/phpunit tests/StackTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
