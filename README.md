@@ -31,6 +31,9 @@
 - 2.15: [Example 2.15 Error output generated when an array comparison fails](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-examples-arraydifftest-php)
 - 2.16: [Example 2.16 Error output when an array comparison of an long array fails](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-examples-longarraydifftest-php)
 
+### Edge Cases
+- 2.17: [Example 2.17 Edge case in the diff generation when using weak comparison](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-edge-cases-examples-arrayweakcomparisontest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -73,6 +76,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/OutputTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ArrayDiffTest.php --testdox`  
 - `./vendor/bin/phpunit tests/LongArrayDiffTest.php --testdox`  
+- `./vendor/bin/phpunit tests/ArrayWeakComparisonTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
