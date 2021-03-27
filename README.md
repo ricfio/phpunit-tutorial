@@ -22,6 +22,7 @@
 
 ### Testing PHP Errors, Warnings, and Notices
 - 2.12: [Example 2.12 Expecting PHP errors, warnings, and notices](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-errortest-php)
+- 2.13: [Example 2.13 Testing return values of code that uses PHP Errors](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-triggererrorreturnvalue-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -61,6 +62,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ExceptionTest.php --testdox`  
 - `./vendor/bin/phpunit tests/ErrorTest.php --testdox`  
+- `./vendor/bin/phpunit tests/ErrorSuppressionTest.php --testdox`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
