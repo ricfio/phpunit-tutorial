@@ -54,6 +54,9 @@
 #### Skipping Tests
 - 7.2: [Example 7.2 Skipping a test](https://phpunit.readthedocs.io/en/9.5/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-skipping-tests-examples-databasetest-php)
 
+#### Skipping Tests using @requires
+- 7.3: [Example 7.3 Skipping test cases using @requires](https://phpunit.readthedocs.io/en/9.5/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-skipping-tests-examples-databaseclassskippingtest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)

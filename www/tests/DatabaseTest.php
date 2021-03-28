@@ -1,19 +1,18 @@
 <?php declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
+/**
+ * @requires extension mysqli
+ */
 final class DatabaseTest extends TestCase
 {
-    protected function setUp(): void
-    {
-        if (!extension_loaded('mysqli')) {
-            $this->markTestSkipped(
-              'The MySQLi extension is not available.'
-            );
-        }
-    }
-
+    /**
+     * @requires PHP >= 5.3
+     */
     public function testConnection(): void
     {
-        // ...
+        // Test requires the mysqli extension and PHP >= 5.3
     }
+
+    // ... All other tests require the mysqli extension
 }
