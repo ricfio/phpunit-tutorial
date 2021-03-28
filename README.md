@@ -5,9 +5,9 @@
 ### Getting Started with PHPUnit 9
 - 1.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
 
-### Writing Tests for PHPUnit
+### 2. Writing Tests for PHPUnit
 
-#### 2. Test Dependencies
+#### Test Dependencies
 - 2.1: [Example 2.1 Testing array operations with PHPUnit](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest-php)
 - 2.2: [Example 2.2 Using the @depends annotation to express dependencies](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest2-php)
 - 2.3: [Example 2.3 Exploiting the dependencies between tests](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-dependencyfailuretest-php)
@@ -40,6 +40,9 @@
 
 #### Command-Line Options
 - 3.1: [Example 3.1 Named data sets](https://phpunit.readthedocs.io/en/9.5/textui.html#textui-examples-testcaseclass-php)
+
+### 4. Fixtures
+- 4.1: [Example 4.1 Using setUp() to create the stack fixture](https://phpunit.readthedocs.io/en/9.5/fixtures.html#fixtures-examples-stacktest-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)

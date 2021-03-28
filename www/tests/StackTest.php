@@ -1,36 +1,33 @@
 <?php declare(strict_types=1);
-
-use phpDocumentor\Reflection\Types\Void_;
 use PHPUnit\Framework\TestCase;
 
 final class StackTest extends TestCase
 {
-    public function testEmpty(): array
-    {
-        $stack = [];
-        $this->assertEmpty($stack);
+    private $stack;
 
-        return $stack;
+    protected function setUp(): void
+    {
+        $this->stack = [];
     }
 
-    /**
-     * @depends testEmpty
-     */
-    public function testPush(array $stack): array
+    public function testEmpty(): void
     {
-        array_push($stack, 'foo');
-        $this->assertSame('foo', $stack[count($stack)-1]);
-        $this->assertNotEmpty($stack);
-
-        return $stack;
+        $this->assertTrue(empty($this->stack));
     }
 
-    /**
-     * @depends testPush
-     */
-    public function testPop(array $stack): void
+    public function testPush(): void
     {
-        $this->assertSame('foo', array_pop($stack));
-        $this->assertEmpty($stack);
+        array_push($this->stack, 'foo');
+
+        $this->assertSame('foo', $this->stack[count($this->stack)-1]);
+        $this->assertFalse(empty($this->stack));
+    }
+
+    public function testPop(): void
+    {
+        array_push($this->stack, 'foo');
+
+        $this->assertSame('foo', array_pop($this->stack));
+        $this->assertTrue(empty($this->stack));
     }
 }
