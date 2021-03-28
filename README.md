@@ -46,6 +46,11 @@
 - 4.2: [Example 4.2 Example showing all template methods available](https://phpunit.readthedocs.io/en/9.5/fixtures.html#fixtures-examples-templatemethodstest-php)
 - 4.3: [Example 4.3 Sharing fixture between the tests of a test suite](fixtures-sharing-fixture-examples-databasetest-php)
 
+### 7. Incomplete and Skipped Tests
+
+#### Incomplete Tests
+- 7.1: [Example 7.1 Marking a test as incomplete](https://phpunit.readthedocs.io/en/9.5/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-incomplete-tests-examples-sampletest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)
@@ -93,6 +98,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/TestCaseClass.php`  
 - `./vendor/bin/phpunit tests/TemplateMethodsTest.php`  
 - `./vendor/bin/phpunit tests/DatabaseTest.php`  
+- `./vendor/bin/phpunit tests/SampleTest.php`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
