@@ -51,6 +51,9 @@
 #### Incomplete Tests
 - 7.1: [Example 7.1 Marking a test as incomplete](https://phpunit.readthedocs.io/en/9.5/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-incomplete-tests-examples-sampletest-php)
 
+#### Skipping Tests
+- 7.2: [Example 7.2 Skipping a test](https://phpunit.readthedocs.io/en/9.5/incomplete-and-skipped-tests.html#incomplete-and-skipped-tests-skipping-tests-examples-databasetest-php)
+
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
 - [Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/)

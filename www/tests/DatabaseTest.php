@@ -3,15 +3,17 @@ use PHPUnit\Framework\TestCase;
 
 final class DatabaseTest extends TestCase
 {
-    private static $dbh;
-
-    public static function setUpBeforeClass(): void
+    protected function setUp(): void
     {
-        self::$dbh = new PDO('sqlite::memory:');
+        if (!extension_loaded('mysqli')) {
+            $this->markTestSkipped(
+              'The MySQLi extension is not available.'
+            );
+        }
     }
 
-    public static function tearDownAfterClass(): void
+    public function testConnection(): void
     {
-        self::$dbh = null;
+        // ...
     }
 }
