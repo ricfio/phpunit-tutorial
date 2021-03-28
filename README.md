@@ -5,7 +5,9 @@
 ### Getting Started with PHPUnit 9
 - 1.0: [Getting Started with PHPUnit 9](https://phpunit.de/getting-started/phpunit-9.html)
 
-### Test Dependencies
+### Writing Tests for PHPUnit
+
+#### 2. Test Dependencies
 - 2.1: [Example 2.1 Testing array operations with PHPUnit](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest-php)
 - 2.2: [Example 2.2 Using the @depends annotation to express dependencies](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-stacktest2-php)
 - 2.3: [Example 2.3 Exploiting the dependencies between tests](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-examples-dependencyfailuretest-php)
@@ -17,22 +19,27 @@
 - 2.9: [Example 2.9 Combination of @depends and @dataProvider in same test](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples-dependencyanddataprovidercombo-php)
 - 2.10: [Example 2.10 Using multiple data providers for a single test](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-data-providers-examples2-datatest-php)
 
-### Testing Exceptions
+#### Testing Exceptions
 - 2.11: [Example 2.11 Using the expectException() method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-exceptiontest-php)
 
-### Testing PHP Errors, Warnings, and Notices
+#### Testing PHP Errors, Warnings, and Notices
 - 2.12: [Example 2.12 Expecting PHP errors, warnings, and notices](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-errortest-php)
 - 2.13: [Example 2.13 Testing return values of code that uses PHP Errors](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-exceptions-examples-triggererrorreturnvalue-php)
 
-### Testing Output
+#### Testing Output
 - 2.14: [Example 2.14 Testing the output of a function or method](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-output-examples-outputtest-php)
 
-### Error output
+#### Error output
 - 2.15: [Example 2.15 Error output generated when an array comparison fails](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-examples-arraydifftest-php)
 - 2.16: [Example 2.16 Error output when an array comparison of an long array fails](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-examples-longarraydifftest-php)
 
-### Edge Cases
+#### Edge Cases
 - 2.17: [Example 2.17 Edge case in the diff generation when using weak comparison](https://phpunit.readthedocs.io/en/9.5/writing-tests-for-phpunit.html#writing-tests-for-phpunit-error-output-edge-cases-examples-arrayweakcomparisontest-php)
+
+### 3. The Command-Line Test Runner
+
+#### Command-Line Options
+- 3.1: [Example 3.1 Named data sets](https://phpunit.readthedocs.io/en/9.5/textui.html#textui-examples-testcaseclass-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -61,22 +68,24 @@ _Terminal_ > _New Terminal_
 `composer require --dev phpunit/phpunit`  
 `./vendor/bin/phpunit --version`  
 
-## Run Tests (testDox)  
+## Run Tests  
 - `composer dump-autoload`  
 - `./vendor/bin/phpunit tests --testdox`  
-- `./vendor/bin/phpunit tests/EmailTest.php --testdox`  
-- `./vendor/bin/phpunit tests/StackTest.php --testdox`  
-- `./vendor/bin/phpunit tests/DependencyFailureTest.php --testdox`  
-- `./vendor/bin/phpunit tests/MultipleDependenciesTest.php --testdox`  
-- `./vendor/bin/phpunit tests/DataTest.php --testdox`  
-- `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php --testdox`  
-- `./vendor/bin/phpunit tests/ExceptionTest.php --testdox`  
-- `./vendor/bin/phpunit tests/ErrorTest.php --testdox`  
-- `./vendor/bin/phpunit tests/ErrorSuppressionTest.php --testdox`  
-- `./vendor/bin/phpunit tests/OutputTest.php --testdox`  
-- `./vendor/bin/phpunit tests/ArrayDiffTest.php --testdox`  
-- `./vendor/bin/phpunit tests/LongArrayDiffTest.php --testdox`  
-- `./vendor/bin/phpunit tests/ArrayWeakComparisonTest.php --testdox`  
+- `./vendor/bin/phpunit tests`  
+- `./vendor/bin/phpunit tests/EmailTest.php`  
+- `./vendor/bin/phpunit tests/StackTest.php`  
+- `./vendor/bin/phpunit tests/DependencyFailureTest.php`  
+- `./vendor/bin/phpunit tests/MultipleDependenciesTest.php`  
+- `./vendor/bin/phpunit tests/DataTest.php`  
+- `./vendor/bin/phpunit tests/DependencyAndDataProviderComboTest.php`  
+- `./vendor/bin/phpunit tests/ExceptionTest.php`  
+- `./vendor/bin/phpunit tests/ErrorTest.php`  
+- `./vendor/bin/phpunit tests/ErrorSuppressionTest.php`  
+- `./vendor/bin/phpunit tests/OutputTest.php`  
+- `./vendor/bin/phpunit tests/ArrayDiffTest.php`  
+- `./vendor/bin/phpunit tests/LongArrayDiffTest.php`  
+- `./vendor/bin/phpunit tests/ArrayWeakComparisonTest.php`  
+- `./vendor/bin/phpunit tests/TestCaseClass.php`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
