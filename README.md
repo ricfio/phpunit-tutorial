@@ -44,6 +44,7 @@
 ### 4. Fixtures
 - 4.1: [Example 4.1 Using setUp() to create the stack fixture](https://phpunit.readthedocs.io/en/9.5/fixtures.html#fixtures-examples-stacktest-php)
 - 4.2: [Example 4.2 Example showing all template methods available](https://phpunit.readthedocs.io/en/9.5/fixtures.html#fixtures-examples-templatemethodstest-php)
+- 4.3: [Example 4.3 Sharing fixture between the tests of a test suite](fixtures-sharing-fixture-examples-databasetest-php)
 
 ## Prerequisites
 - [VS Code](https://code.visualstudio.com/docs/setup/windows)
@@ -91,6 +92,7 @@ _Terminal_ > _New Terminal_
 - `./vendor/bin/phpunit tests/ArrayWeakComparisonTest.php`  
 - `./vendor/bin/phpunit tests/TestCaseClass.php`  
 - `./vendor/bin/phpunit tests/TemplateMethodsTest.php`  
+- `./vendor/bin/phpunit tests/DatabaseTest.php`  
 
 ## References
 * [PHPUnit](https://phpunit.de/)
